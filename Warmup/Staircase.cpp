@@ -1,15 +1,15 @@
+/*
+ * Complete the 'staircase' function below.
+ *
+ * The function accepts INTEGER n as parameter.
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 string ltrim(const string &);
 string rtrim(const string &);
-
-/*
- * Complete the 'staircase' function below.
- *
- * The function accepts INTEGER n as parameter.
- */
 
 void staircase(int n) {
     for (int i = 0 ; i < n ; i++)
