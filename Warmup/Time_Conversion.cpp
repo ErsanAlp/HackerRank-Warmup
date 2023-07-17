@@ -1,13 +1,13 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
 /*
  * Complete the 'timeConversion' function below.
  *
  * The function is expected to return a STRING.
  * The function accepts STRING s as parameter.
  */
+
+#include <bits/stdc++.h>
+
+using namespace std;
 
 string timeConversion(string s) {
     int hour = stoi(s.substr(0,2));
