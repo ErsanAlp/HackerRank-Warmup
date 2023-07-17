@@ -1,3 +1,9 @@
+/*
+ * Complete the 'plusMinus' function below.
+ *
+ * The function accepts INTEGER_ARRAY arr as parameter.
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -5,12 +11,6 @@ using namespace std;
 string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
-
-/*
- * Complete the 'plusMinus' function below.
- *
- * The function accepts INTEGER_ARRAY arr as parameter.
- */
 
 void plusMinus(vector<int> arr) {
     double length = arr.size();
