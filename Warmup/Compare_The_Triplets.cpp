@@ -1,11 +1,3 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
-string ltrim(const string &);
-string rtrim(const string &);
-vector<string> split(const string &);
-
 /*
  * Complete the 'compareTriplets' function below.
  *
@@ -14,6 +6,15 @@ vector<string> split(const string &);
  *  1. INTEGER_ARRAY a
  *  2. INTEGER_ARRAY b
  */
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+vector<string> split(const string &);
+
 
 vector<int> compareTriplets(vector<int> a, vector<int> b) {
     int alice = 0;
